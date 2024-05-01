@@ -38,8 +38,10 @@ LPCSTR ConvertWideCharToLPCSTR(const wchar_t* wideString)
     return narrowString;
 }
 
-
-
+// https://www.unknowncheats.me/forum/general-programming-and-reversing/177183-basic-intermediate-techniques-uwp-app-modding.html
+// https://thewover.github.io/Introducing-Donut/
+// https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread
+// https://github.com/gabime/spdlog/blob/v1.x/example/example.cpp
 // Path to modified game files store in AppData
 std::wstring MOD_FILES_PATH;
 
